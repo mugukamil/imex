@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{
+	zoom:1;
+}
+
+.table, .table-row, .table-cell {
+    display: block;
+    float: left;
+}
+.table-cell {
+    clear: right;
+    zoom: 1;
+}
+.table {
+    overflow: hidden;
+    position: relative;
+}
